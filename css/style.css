@@ -68,7 +68,7 @@ h6,
 .btn-primary,
 .btn-outline-primary:hover {
     color: var(--light);
-    background-color: brown;
+    background-color: rgb(8, 50, 156);
 }
 
 .btn-square {
@@ -94,6 +94,10 @@ h6,
     align-items: center;
     justify-content: center;
     font-weight: normal;
+}
+.icons{
+    width: 5rem;
+    height: 5rem;
 }
 
 
@@ -165,23 +169,24 @@ h6,
 /*** Header ***/
 .home{
     width: fit-content;
-    height: 650px;
+    height: 800px;
   
 }
 /* .caption{
      
 } */
 .carousel-caption {
-    top: 0;
+    top: 2rem;
     left: 0;
     right: 0;
     bottom: 0;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     text-align: center;
+    color: #303458;
     
-    background: rgba(0, 0, 0, .32);
+    /* background: rgba(0, 0, 0, .32); */
      
     z-index: 1;
 }
@@ -197,20 +202,23 @@ h6,
     height: 3rem;
     border-radius: 3rem;
     /* background-color: var(--primary); */
-    border: 10px solid var(--primary);
+    /* border: 10px solid var(--primary); */
+    border-color: rgb(38, 38, 96);
 }
 
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
         min-height: 450px;
+        color: darkblue;
     }
     
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
-        height: 70%;
+        height: 100%;
         object-fit: cover;
+        border-color: #22264d;
     }
 }
 
